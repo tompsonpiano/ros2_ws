@@ -1,0 +1,33 @@
+[8.173s] Invoking command in '/home/redbull/ros2_ws/src/mypkg': PYTHONPATH=/home/redbull/ros2_ws/src/build/mypkg/prefix_override:/home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/redbull/ros2_ws/src/build/mypkg/build install --record /home/redbull/ros2_ws/src/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[9.169s] running egg_info
+[9.170s] creating ../build/mypkg/mypkg.egg-info
+[9.171s] writing ../build/mypkg/mypkg.egg-info/PKG-INFO
+[9.180s] writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt
+[9.180s] writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt
+[9.181s] writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt
+[9.182s] writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt
+[9.251s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[9.359s] reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[9.362s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[9.362s] running build
+[9.364s] running build_py
+[9.364s] creating /home/redbull/ros2_ws/src/build/mypkg/build
+[9.365s] creating /home/redbull/ros2_ws/src/build/mypkg/build/lib
+[9.365s] creating /home/redbull/ros2_ws/src/build/mypkg/build/lib/mypkg
+[9.366s] copying mypkg/__init__.py -> /home/redbull/ros2_ws/src/build/mypkg/build/lib/mypkg
+[9.370s] running install
+[9.372s] running install_lib
+[9.378s] creating /home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg
+[9.380s] copying /home/redbull/ros2_ws/src/build/mypkg/build/lib/mypkg/__init__.py -> /home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg
+[9.385s] byte-compiling /home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[9.418s] running install_data
+[9.418s] creating /home/redbull/ros2_ws/src/install/mypkg/share/ament_index
+[9.419s] creating /home/redbull/ros2_ws/src/install/mypkg/share/ament_index/resource_index
+[9.419s] creating /home/redbull/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[9.419s] copying resource/mypkg -> /home/redbull/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[9.434s] copying package.xml -> /home/redbull/ros2_ws/src/install/mypkg/share/mypkg
+[9.435s] running install_egg_info
+[9.437s] Copying ../build/mypkg/mypkg.egg-info to /home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[9.467s] running install_scripts
+[9.540s] writing list of installed files to '/home/redbull/ros2_ws/src/build/mypkg/install.log'
+[9.594s] Invoked command in '/home/redbull/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/redbull/ros2_ws/src/build/mypkg/prefix_override:/home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/redbull/ros2_ws/src/build/mypkg/build install --record /home/redbull/ros2_ws/src/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed

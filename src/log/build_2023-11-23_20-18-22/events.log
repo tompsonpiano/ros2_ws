@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.002072] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.002332] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.101965] (-) TimerEvent: {}
+[0.460709] (-) TimerEvent: {}
+[0.594424] (-) TimerEvent: {}
+[0.706561] (-) TimerEvent: {}
+[0.828894] (-) TimerEvent: {}
+[0.941483] (-) TimerEvent: {}
+[1.047566] (-) TimerEvent: {}
+[1.155540] (-) TimerEvent: {}
+[1.260856] (-) TimerEvent: {}
+[1.366373] (-) TimerEvent: {}
+[1.477475] (-) TimerEvent: {}
+[1.593671] (-) TimerEvent: {}
+[1.713383] (-) TimerEvent: {}
+[1.815881] (-) TimerEvent: {}
+[1.925031] (-) TimerEvent: {}
+[2.047516] (-) TimerEvent: {}
+[2.313902] (-) TimerEvent: {}
+[2.466383] (-) TimerEvent: {}
+[2.608228] (-) TimerEvent: {}
+[2.731675] (-) TimerEvent: {}
+[2.842111] (-) TimerEvent: {}
+[2.952214] (-) TimerEvent: {}
+[3.073693] (-) TimerEvent: {}
+[3.210145] (-) TimerEvent: {}
+[3.404759] (-) TimerEvent: {}
+[3.516639] (-) TimerEvent: {}
+[3.638488] (-) TimerEvent: {}
+[3.754943] (-) TimerEvent: {}
+[3.950912] (-) TimerEvent: {}
+[4.075077] (-) TimerEvent: {}
+[4.234075] (-) TimerEvent: {}
+[4.371384] (-) TimerEvent: {}
+[4.488390] (-) TimerEvent: {}
+[4.611442] (-) TimerEvent: {}
+[4.799932] (-) TimerEvent: {}
+[4.925739] (-) TimerEvent: {}
+[5.029718] (-) TimerEvent: {}
+[5.134988] (-) TimerEvent: {}
+[5.258366] (-) TimerEvent: {}
+[5.406872] (-) TimerEvent: {}
+[5.530065] (-) TimerEvent: {}
+[5.656109] (-) TimerEvent: {}
+[5.764747] (-) TimerEvent: {}
+[5.872578] (-) TimerEvent: {}
+[5.987338] (-) TimerEvent: {}
+[6.092065] (-) TimerEvent: {}
+[6.198430] (-) TimerEvent: {}
+[6.321698] (-) TimerEvent: {}
+[6.429488] (-) TimerEvent: {}
+[6.540684] (-) TimerEvent: {}
+[6.660503] (-) TimerEvent: {}
+[6.769789] (-) TimerEvent: {}
+[6.883957] (-) TimerEvent: {}
+[6.992449] (-) TimerEvent: {}
+[7.109601] (-) TimerEvent: {}
+[7.304819] (-) TimerEvent: {}
+[7.424294] (-) TimerEvent: {}
+[7.533216] (-) TimerEvent: {}
+[7.646554] (-) TimerEvent: {}
+[7.756116] (-) TimerEvent: {}
+[7.866035] (-) TimerEvent: {}
+[7.967633] (-) TimerEvent: {}
+[8.078394] (-) TimerEvent: {}
+[8.146478] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/mypkg', 'build', '--build-base', '/home/redbull/ros2_ws/src/build/mypkg/build', 'install', '--record', '/home/redbull/ros2_ws/src/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/redbull/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'UIM_CANDWIN_PROG': 'uim-candwin-gtk', 'USER': 'redbull', 'LC_TIME': 'ja_JP.UTF-8', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/redbull', 'OLDPWD': '/home/redbull', 'XIM': 'uim', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'ja_JP.UTF-8', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'uim', 'LOGNAME': 'redbull', 'NAME': 'Lets-note-tomohiro', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'LC_COLLATE': 'ja_JP.UTF-8', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04LTS_2004.6.16.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Intel/iCLS Client/:/mnt/c/Program Files/Intel/iCLS Client/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/mnt/c/Program Files (x86)/Symantec/VIP Access Client/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/Anaconda3:/mnt/c/ProgramData/Anaconda3/Library/mingw-w64/bin:/mnt/c/ProgramData/Anaconda3/Library/usr/bin:/mnt/c/ProgramData/Anaconda3/Library/bin:/mnt/c/ProgramData/Anaconda3/Scripts:/mnt/c/PROGRA~1/JPKI:/mnt/c/Program Files/PowerShell/7-preview/preview:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/jiang/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/jiang/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/jiang/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jiang/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'DISPLAY': '10.64.7.184\n10.64.7.185:0', 'LANG': 'ja_JP.UTF-8', 'XMODIFIERS': '@im=uim', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'LC_MESSAGES': 'ja_JP.UTF-8', 'SHELL': '/bin/bash', 'LC_NAME': 'ja_JP.UTF-8', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ja_JP.UTF-8', 'LC_IDENTIFICATION': 'ja_JP.UTF-8', 'QT_IM_MODULE': 'uim', 'PWD': '/home/redbull/ros2_ws/src/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/redbull/ros2_ws/src/build/mypkg/prefix_override:/home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[8.186333] (-) TimerEvent: {}
+[8.310199] (-) TimerEvent: {}
+[8.423506] (-) TimerEvent: {}
+[8.533994] (-) TimerEvent: {}
+[8.646321] (-) TimerEvent: {}
+[8.751508] (-) TimerEvent: {}
+[8.855215] (-) TimerEvent: {}
+[8.965441] (-) TimerEvent: {}
+[9.073347] (-) TimerEvent: {}
+[9.171425] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[9.172505] (mypkg) StdoutLine: {'line': b'creating ../build/mypkg/mypkg.egg-info\n'}
+[9.173179] (mypkg) StdoutLine: {'line': b'writing ../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[9.173443] (-) TimerEvent: {}
+[9.182081] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[9.182736] (mypkg) StdoutLine: {'line': b'writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[9.182998] (mypkg) StdoutLine: {'line': b'writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[9.183849] (mypkg) StdoutLine: {'line': b'writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[9.253524] (mypkg) StdoutLine: {'line': b"writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[9.276244] (-) TimerEvent: {}
+[9.360803] (mypkg) StdoutLine: {'line': b"reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[9.363531] (mypkg) StdoutLine: {'line': b"writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[9.364155] (mypkg) StdoutLine: {'line': b'running build\n'}
+[9.365488] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[9.366399] (mypkg) StdoutLine: {'line': b'creating /home/redbull/ros2_ws/src/build/mypkg/build\n'}
+[9.366945] (mypkg) StdoutLine: {'line': b'creating /home/redbull/ros2_ws/src/build/mypkg/build/lib\n'}
+[9.367655] (mypkg) StdoutLine: {'line': b'creating /home/redbull/ros2_ws/src/build/mypkg/build/lib/mypkg\n'}
+[9.368661] (mypkg) StdoutLine: {'line': b'copying mypkg/__init__.py -> /home/redbull/ros2_ws/src/build/mypkg/build/lib/mypkg\n'}
+[9.371807] (mypkg) StdoutLine: {'line': b'running install\n'}
+[9.374589] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.379956] (mypkg) StdoutLine: {'line': b'creating /home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[9.380338] (-) TimerEvent: {}
+[9.381875] (mypkg) StdoutLine: {'line': b'copying /home/redbull/ros2_ws/src/build/mypkg/build/lib/mypkg/__init__.py -> /home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[9.387011] (mypkg) StdoutLine: {'line': b'byte-compiling /home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc\n'}
+[9.419916] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[9.420453] (mypkg) StdoutLine: {'line': b'creating /home/redbull/ros2_ws/src/install/mypkg/share/ament_index\n'}
+[9.420851] (mypkg) StdoutLine: {'line': b'creating /home/redbull/ros2_ws/src/install/mypkg/share/ament_index/resource_index\n'}
+[9.421197] (mypkg) StdoutLine: {'line': b'creating /home/redbull/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages\n'}
+[9.421592] (mypkg) StdoutLine: {'line': b'copying resource/mypkg -> /home/redbull/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages\n'}
+[9.436484] (mypkg) StdoutLine: {'line': b'copying package.xml -> /home/redbull/ros2_ws/src/install/mypkg/share/mypkg\n'}
+[9.436904] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.438097] (mypkg) StdoutLine: {'line': b'Copying ../build/mypkg/mypkg.egg-info to /home/redbull/ros2_ws/src/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[9.468964] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.492701] (-) TimerEvent: {}
+[9.542152] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/redbull/ros2_ws/src/build/mypkg/install.log'\n"}
+[9.593438] (mypkg) CommandEnded: {'returncode': 0}
+[9.596873] (-) TimerEvent: {}
+[9.735671] (-) TimerEvent: {}
+[9.863073] (-) TimerEvent: {}
+[9.972832] (-) TimerEvent: {}
+[10.094446] (-) TimerEvent: {}
+[10.213407] (-) TimerEvent: {}
+[10.321737] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[10.336448] (-) TimerEvent: {}
+[10.336810] (-) EventReactorShutdown: {}
