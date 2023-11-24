@@ -1,0 +1,23 @@
+[3.472s] Invoking command in '/home/redbull/ros2_ws/src/mypkg': PYTHONPATH=/home/redbull/ros2_ws/build/mypkg/prefix_override:/home/redbull/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/redbull/ros2_ws/build/mypkg/build install --record /home/redbull/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[4.114s] running egg_info
+[4.116s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[4.117s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[4.178s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[4.184s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[4.184s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[4.193s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[4.216s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[4.216s] running build
+[4.216s] running build_py
+[4.225s] running install
+[4.225s] running install_lib
+[4.234s] running install_data
+[4.236s] copying package.xml -> /home/redbull/ros2_ws/install/mypkg/share/mypkg
+[4.236s] running install_egg_info
+[4.237s] removing '/home/redbull/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[4.332s] Copying ../../build/mypkg/mypkg.egg-info to /home/redbull/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[4.336s] running install_scripts
+[4.336s] Installing listener script to /home/redbull/ros2_ws/install/mypkg/lib/mypkg
+[4.373s] Installing talker script to /home/redbull/ros2_ws/install/mypkg/lib/mypkg
+[4.373s] writing list of installed files to '/home/redbull/ros2_ws/build/mypkg/install.log'
+[4.387s] Invoked command in '/home/redbull/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/redbull/ros2_ws/build/mypkg/prefix_override:/home/redbull/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/redbull/ros2_ws/build/mypkg/build install --record /home/redbull/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
