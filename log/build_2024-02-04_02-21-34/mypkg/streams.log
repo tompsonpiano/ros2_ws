@@ -1,0 +1,25 @@
+[1.076s] Invoking command in '/home/tompsonpiano/ros2_ws/src/mypkg': PYTHONPATH=/home/tompsonpiano/ros2_ws/build/mypkg/prefix_override:/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/tompsonpiano/ros2_ws/build/mypkg/build install --record /home/tompsonpiano/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.298s] running egg_info
+[1.298s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.298s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.299s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.299s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[1.299s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[1.349s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.350s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.350s] running build
+[1.350s] running build_py
+[1.350s] copying mypkg/talker.py -> /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg
+[1.350s] running install
+[1.351s] running install_lib
+[1.352s] copying /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.353s] byte-compiling /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.354s] running install_data
+[1.355s] running install_egg_info
+[1.356s] removing '/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.357s] Copying ../../build/mypkg/mypkg.egg-info to /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.358s] running install_scripts
+[1.378s] Installing listener script to /home/tompsonpiano/ros2_ws/install/mypkg/lib/mypkg
+[1.379s] Installing talker script to /home/tompsonpiano/ros2_ws/install/mypkg/lib/mypkg
+[1.379s] writing list of installed files to '/home/tompsonpiano/ros2_ws/build/mypkg/install.log'
+[1.400s] Invoked command in '/home/tompsonpiano/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/tompsonpiano/ros2_ws/build/mypkg/prefix_override:/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/tompsonpiano/ros2_ws/build/mypkg/build install --record /home/tompsonpiano/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
