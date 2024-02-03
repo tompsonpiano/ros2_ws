@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (mypkg) JobQueued: {'identifier': 'mypkg', 'dependencies': OrderedDict()}
+[0.000184] (person_msgs) JobQueued: {'identifier': 'person_msgs', 'dependencies': OrderedDict()}
+[0.000792] (mypkg) JobStarted: {'identifier': 'mypkg'}
+[0.093908] (person_msgs) JobStarted: {'identifier': 'person_msgs'}
+[0.103359] (-) TimerEvent: {}
+[0.203856] (-) TimerEvent: {}
+[0.304691] (-) TimerEvent: {}
+[0.369975] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'cmake'}
+[0.371927] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'build'}
+[0.371995] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tompsonpiano/ros2_ws/build/person_msgs', '--', '-j8', '-l8'], 'cwd': '/home/tompsonpiano/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tompsonpiano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tompsonpiano/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/tompsonpiano'), ('OLDPWD', '/home/tompsonpiano/ros2_ws/src/person_msgs'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/tompsonpiano/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tompsonpiano'), ('NAME', 'hp-note2023'), ('WSL_INTEROP', '/run/WSL/234_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/tomoh/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', 'fe199590-04b8-4c92-b974-7c8480ea6df4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/tompsonpiano/ros2_ws/install/person_msgs:/home/tompsonpiano/ros2_ws/install/mypkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tompsonpiano/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tompsonpiano/ros2_ws/install/person_msgs:/home/tompsonpiano/ros2_ws/install/mypkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.404875] (-) TimerEvent: {}
+[0.409309] (person_msgs) StdoutLine: {'line': b'[  2%] Built target person_msgs__cpp\n'}
+[0.409540] (person_msgs) StdoutLine: {'line': b'[ 12%] Built target person_msgs__rosidl_generator_c\n'}
+[0.425893] (person_msgs) StdoutLine: {'line': b'[ 23%] Built target person_msgs__rosidl_typesupport_cpp\n'}
+[0.426878] (person_msgs) StdoutLine: {'line': b'[ 33%] Built target person_msgs__rosidl_typesupport_c\n'}
+[0.427136] (person_msgs) StdoutLine: {'line': b'[ 43%] Built target person_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.427394] (person_msgs) StdoutLine: {'line': b'[ 53%] Built target person_msgs__rosidl_typesupport_introspection_c\n'}
+[0.428385] (person_msgs) StdoutLine: {'line': b'[ 64%] Built target person_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.444997] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.457085] (person_msgs) StdoutLine: {'line': b'[ 74%] Built target person_msgs\n'}
+[0.469262] (person_msgs) StdoutLine: {'line': b'[ 76%] Built target person_msgs__py\n'}
+[0.484948] (person_msgs) StdoutLine: {'line': b'[ 84%] Built target person_msgs__python\n'}
+[0.503343] (person_msgs) StdoutLine: {'line': b'[ 89%] Built target person_msgs__rosidl_typesupport_c__pyext\n'}
+[0.504877] (person_msgs) StdoutLine: {'line': b'[ 94%] Built target person_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.504977] (-) TimerEvent: {}
+[0.505092] (person_msgs) StdoutLine: {'line': b'[100%] Built target person_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.513551] (person_msgs) CommandEnded: {'returncode': 0}
+[0.567367] (person_msgs) JobProgress: {'identifier': 'person_msgs', 'progress': 'install'}
+[0.575178] (person_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tompsonpiano/ros2_ws/build/person_msgs'], 'cwd': '/home/tompsonpiano/ros2_ws/build/person_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tompsonpiano'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tompsonpiano/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/tompsonpiano'), ('OLDPWD', '/home/tompsonpiano/ros2_ws/src/person_msgs'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/tompsonpiano/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tompsonpiano'), ('NAME', 'hp-note2023'), ('WSL_INTEROP', '/run/WSL/234_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/tomoh/AppData/Local/Microsoft/WindowsApps:/snap/bin'), ('WT_SESSION', 'fe199590-04b8-4c92-b974-7c8480ea6df4'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/tompsonpiano/ros2_ws/install/person_msgs:/home/tompsonpiano/ros2_ws/install/mypkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/tompsonpiano/ros2_ws/build/person_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tompsonpiano/ros2_ws/install/person_msgs:/home/tompsonpiano/ros2_ws/install/mypkg:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.581777] (person_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.582151] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/ament_index/resource_index/rosidl_interfaces/person_msgs\n'}
+[0.582315] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.582492] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.582709] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/query.h\n'}
+[0.582800] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.582883] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__functions.c\n'}
+[0.582963] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__type_support.h\n'}
+[0.583113] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__functions.h\n'}
+[0.583216] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__struct.h\n'}
+[0.583448] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.583615] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/person.h\n'}
+[0.583725] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.583998] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.584111] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__functions.c\n'}
+[0.584350] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__type_support.h\n'}
+[0.584469] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__functions.h\n'}
+[0.584562] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__struct.h\n'}
+[0.584606] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.sh\n'}
+[0.584689] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/environment/library_path.dsv\n'}
+[0.584730] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_generator_c.so\n'}
+[0.584811] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.584853] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.584953] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.584994] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__rosidl_typesupport_fastrtps_c.h\n'}
+[0.585088] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.585133] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.585211] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.585253] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_c.h\n'}
+[0.585359] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.585578] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.585631] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.585671] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.585763] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/dds_fastrtps\n'}
+[0.585833] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.585913] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.586003] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.586051] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.586105] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/dds_fastrtps\n'}
+[0.586244] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.586434] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.586504] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.586552] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.586596] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.586638] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__type_support.c\n'}
+[0.586675] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__rosidl_typesupport_introspection_c.h\n'}
+[0.586714] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.586751] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.586789] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.586827] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__type_support.c\n'}
+[0.586871] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__rosidl_typesupport_introspection_c.h\n'}
+[0.586943] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.586984] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_c.so\n'}
+[0.587023] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.587061] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.587100] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/query.hpp\n'}
+[0.587137] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.587175] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__builder.hpp\n'}
+[0.587215] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__struct.hpp\n'}
+[0.587253] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__traits.hpp\n'}
+[0.587291] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__type_support.hpp\n'}
+[0.587327] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.587364] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/person.hpp\n'}
+[0.587401] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.587438] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.587475] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__builder.hpp\n'}
+[0.587565] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__type_support.hpp\n'}
+[0.587608] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__traits.hpp\n'}
+[0.587648] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__struct.hpp\n'}
+[0.587694] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs\n'}
+[0.587734] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv\n'}
+[0.587777] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail\n'}
+[0.587814] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__type_support.cpp\n'}
+[0.587851] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/srv/detail/query__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.587895] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg\n'}
+[0.587934] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail\n'}
+[0.587972] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.588009] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/include/person_msgs/msg/detail/person__type_support.cpp\n'}
+[0.588047] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.588085] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/libperson_msgs__rosidl_typesupport_cpp.so\n'}
+[0.588122] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.sh\n'}
+[0.588160] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/environment/pythonpath.dsv\n'}
+[0.588198] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/__init__.py\n'}
+[0.605254] (-) TimerEvent: {}
+[0.607308] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/msg\n'}
+[0.607472] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/msg/_person.py\n'}
+[0.607769] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/msg/_person_s.c\n'}
+[0.607826] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/msg/__init__.py\n'}
+[0.607866] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/srv\n'}
+[0.607905] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/srv/_query_s.c\n'}
+[0.607944] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/srv/_query.py\n'}
+[0.607981] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/srv/__init__.py\n'}
+[0.608018] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.608340] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.608865] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages/person_msgs/person_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.609099] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/lib/libperson_msgs__python.so\n'}
+[0.609348] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.idl\n'}
+[0.609575] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.idl\n'}
+[0.609718] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/msg/Person.msg\n'}
+[0.609867] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/srv/Query.srv\n'}
+[0.610023] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Request.msg\n'}
+[0.610183] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/srv/Query_Response.msg\n'}
+[0.610616] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/ament_index/resource_index/package_run_dependencies/person_msgs\n'}
+[0.610810] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/ament_index/resource_index/parent_prefix_path/person_msgs\n'}
+[0.611101] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.sh\n'}
+[0.611208] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/environment/ament_prefix_path.dsv\n'}
+[0.611309] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/environment/path.sh\n'}
+[0.611396] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/environment/path.dsv\n'}
+[0.611464] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/local_setup.bash\n'}
+[0.611566] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/local_setup.sh\n'}
+[0.611840] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/local_setup.zsh\n'}
+[0.611925] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/local_setup.dsv\n'}
+[0.612025] (person_msgs) StdoutLine: {'line': b'-- Installing: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/package.dsv\n'}
+[0.612077] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/ament_index/resource_index/packages/person_msgs\n'}
+[0.612190] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_generator_cExport.cmake\n'}
+[0.612254] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.612333] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.612424] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.612807] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.612969] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.613069] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.613287] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.613342] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.613384] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.613424] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.613467] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.613505] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.613543] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.613581] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.613620] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.613657] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.613695] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.613733] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig.cmake\n'}
+[0.613770] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/cmake/person_msgsConfig-version.cmake\n'}
+[0.613808] (person_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tompsonpiano/ros2_ws/install/person_msgs/share/person_msgs/package.xml\n'}
+[0.615796] (person_msgs) CommandEnded: {'returncode': 0}
+[0.705778] (-) TimerEvent: {}
+[0.721396] (mypkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/mypkg', 'build', '--build-base', '/home/tompsonpiano/ros2_ws/build/mypkg/build', 'install', '--record', '/home/tompsonpiano/ros2_ws/build/mypkg/install.log', '--install-scripts', '$base/lib/mypkg', '--single-version-externally-managed'], 'cwd': '/home/tompsonpiano/ros2_ws/src/mypkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tompsonpiano', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tompsonpiano/ros2_ws/install/person_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{4dd1e689-b517-5f39-947d-78e8a8bdf958}', 'HOME': '/home/tompsonpiano', 'OLDPWD': '/home/tompsonpiano/ros2_ws/src/person_msgs', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'COLCON_PREFIX_PATH': '/home/tompsonpiano/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'tompsonpiano', 'NAME': 'hp-note2023', 'WSL_INTEROP': '/run/WSL/234_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/tomoh/AppData/Local/Microsoft/WindowsApps:/snap/bin', 'WT_SESSION': 'fe199590-04b8-4c92-b974-7c8480ea6df4', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/tompsonpiano/ros2_ws/install/person_msgs:/home/tompsonpiano/ros2_ws/install/mypkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/tompsonpiano/ros2_ws/build/mypkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tompsonpiano/ros2_ws/build/mypkg/prefix_override:/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages:/home/tompsonpiano/ros2_ws/install/person_msgs/lib/python3.8/site-packages:/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/tompsonpiano/ros2_ws/install/person_msgs', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.807066] (-) TimerEvent: {}
+[0.848416] (mypkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.848645] (mypkg) StdoutLine: {'line': b'writing ../../build/mypkg/mypkg.egg-info/PKG-INFO\n'}
+[0.848745] (mypkg) StdoutLine: {'line': b'writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt\n'}
+[0.848860] (mypkg) StdoutLine: {'line': b'writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt\n'}
+[0.848970] (mypkg) StdoutLine: {'line': b'writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt\n'}
+[0.849023] (mypkg) StdoutLine: {'line': b'writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt\n'}
+[0.870090] (mypkg) StdoutLine: {'line': b"reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.870280] (mypkg) StdoutLine: {'line': b"writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'\n"}
+[0.870365] (mypkg) StdoutLine: {'line': b'running build\n'}
+[0.870437] (mypkg) StdoutLine: {'line': b'running build_py\n'}
+[0.870510] (mypkg) StdoutLine: {'line': b'copying mypkg/talker.py -> /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg\n'}
+[0.871213] (mypkg) StdoutLine: {'line': b'running install\n'}
+[0.871635] (mypkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.872200] (mypkg) StdoutLine: {'line': b'copying /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg\n'}
+[0.872322] (mypkg) StdoutLine: {'line': b'byte-compiling /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc\n'}
+[0.873013] (mypkg) StdoutLine: {'line': b'running install_data\n'}
+[0.874481] (mypkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.874634] (mypkg) StdoutLine: {'line': b"removing '/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.875437] (mypkg) StdoutLine: {'line': b'Copying ../../build/mypkg/mypkg.egg-info to /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info\n'}
+[0.875784] (mypkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.891185] (mypkg) StdoutLine: {'line': b'Installing listener script to /home/tompsonpiano/ros2_ws/install/mypkg/lib/mypkg\n'}
+[0.891387] (mypkg) StdoutLine: {'line': b'Installing talker script to /home/tompsonpiano/ros2_ws/install/mypkg/lib/mypkg\n'}
+[0.891469] (mypkg) StdoutLine: {'line': b"writing list of installed files to '/home/tompsonpiano/ros2_ws/build/mypkg/install.log'\n"}
+[0.901572] (person_msgs) JobEnded: {'identifier': 'person_msgs', 'rc': 0}
+[0.903804] (mypkg) CommandEnded: {'returncode': 0}
+[0.908775] (-) TimerEvent: {}
+[0.964498] (mypkg) JobEnded: {'identifier': 'mypkg', 'rc': 0}
+[0.965498] (-) EventReactorShutdown: {}
