@@ -7,7 +7,10 @@
 /home/tompsonpiano/ros2_ws/install/mypkg/share/ament_index/resource_index/packages/mypkg
 /home/tompsonpiano/ros2_ws/install/mypkg/share/mypkg/package.xml
 <<<<<<< HEAD
+<<<<<<< HEAD
 /home/tompsonpiano/ros2_ws/install/mypkg/share/mypkg/talk_listen.launch.py
+=======
+>>>>>>> lesson10
 =======
 >>>>>>> lesson10
 /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info/top_level.txt
