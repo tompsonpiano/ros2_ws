@@ -1,0 +1,2 @@
+Invoking command in '/home/tompsonpiano/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tompsonpiano/ros2_ws/build/person_msgs -- -j8 -l8
+Invoked command in '/home/tompsonpiano/ros2_ws/build/person_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tompsonpiano/ros2_ws/build/person_msgs -- -j8 -l8

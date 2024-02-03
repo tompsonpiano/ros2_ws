@@ -1,0 +1,6 @@
+[0.247s] Invoking command in '/home/tompsonpiano/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tompsonpiano/ros2_ws/build/person_msgs -- -j8 -l8
+[0.286s] CMake Error: The current CMakeCache.txt directory /home/tompsonpiano/ros2_ws/build/person_msgs/CMakeCache.txt is different than the directory /home/redbull/ros2_ws/build/person_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.298s] CMake Error: The source directory "/home/redbull/ros2_ws/src/person_msgs" does not exist.
+[0.298s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.301s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[0.304s] Invoked command in '/home/tompsonpiano/ros2_ws/build/person_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tompsonpiano/ros2_ws/build/person_msgs -- -j8 -l8
