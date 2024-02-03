@@ -13,4 +13,5 @@ jobs:
           rosdep update
           rosdep install -i --from-path src --rosdistro humble -y
           cd src
+          ls
           bash -xv ./mypkg/test/test.bash /root
