@@ -1,6 +1,0 @@
-Invoking command in '/home/redbull/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/redbull/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/redbull/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/redbull/ros2_ws/install/person_msgs
-Invoked command in '/home/redbull/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=/home/redbull/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake /home/redbull/ros2_ws/src/person_msgs -DCMAKE_INSTALL_PREFIX=/home/redbull/ros2_ws/install/person_msgs
-Invoking command in '/home/redbull/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/redbull/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/redbull/ros2_ws/build/person_msgs -- -j2 -l2
-Invoked command in '/home/redbull/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=/home/redbull/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --build /home/redbull/ros2_ws/build/person_msgs -- -j2 -l2
-Invoking command in '/home/redbull/ros2_ws/build/person_msgs': CMAKE_PREFIX_PATH=/home/redbull/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --install /home/redbull/ros2_ws/build/person_msgs
-Invoked command in '/home/redbull/ros2_ws/build/person_msgs' returned '0': CMAKE_PREFIX_PATH=/home/redbull/ros2_ws/install/mypkg:/opt/ros/foxy /usr/bin/cmake --install /home/redbull/ros2_ws/build/person_msgs

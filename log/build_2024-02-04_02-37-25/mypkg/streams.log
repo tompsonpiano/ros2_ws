@@ -1,0 +1,41 @@
+[0.537s] Invoking command in '/home/tompsonpiano/ros2_ws/src/mypkg': PYTHONPATH=/home/tompsonpiano/ros2_ws/build/mypkg/prefix_override:/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/tompsonpiano/ros2_ws/build/mypkg/build install --record /home/tompsonpiano/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[0.645s] running egg_info
+[0.646s] creating ../../build/mypkg/mypkg.egg-info
+[0.646s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.646s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.646s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.646s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.646s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.653s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.673s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.673s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.673s] running build
+[0.673s] running build_py
+[0.673s] creating /home/tompsonpiano/ros2_ws/build/mypkg/build
+[0.673s] creating /home/tompsonpiano/ros2_ws/build/mypkg/build/lib
+[0.674s] creating /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg
+[0.674s] copying mypkg/talker.py -> /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg
+[0.674s] copying mypkg/listener.py -> /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg
+[0.675s] copying mypkg/__init__.py -> /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg
+[0.675s] running install
+[0.676s] running install_lib
+[0.677s] creating /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.678s] copying /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg/talker.py -> /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.678s] copying /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg/listener.py -> /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.678s] copying /home/tompsonpiano/ros2_ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg
+[0.678s] byte-compiling /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[0.679s] byte-compiling /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[0.679s] byte-compiling /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[0.680s] running install_data
+[0.680s] creating /home/tompsonpiano/ros2_ws/install/mypkg/share/ament_index
+[0.680s] creating /home/tompsonpiano/ros2_ws/install/mypkg/share/ament_index/resource_index
+[0.680s] creating /home/tompsonpiano/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.680s] copying resource/mypkg -> /home/tompsonpiano/ros2_ws/install/mypkg/share/ament_index/resource_index/packages
+[0.680s] copying package.xml -> /home/tompsonpiano/ros2_ws/install/mypkg/share/mypkg
+[0.680s] running install_egg_info
+[0.681s] Copying ../../build/mypkg/mypkg.egg-info to /home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[0.681s] running install_scripts
+[0.691s] Installing listener script to /home/tompsonpiano/ros2_ws/install/mypkg/lib/mypkg
+[0.691s] Installing talker script to /home/tompsonpiano/ros2_ws/install/mypkg/lib/mypkg
+[0.691s] writing list of installed files to '/home/tompsonpiano/ros2_ws/build/mypkg/install.log'
+[0.703s] Invoked command in '/home/tompsonpiano/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/tompsonpiano/ros2_ws/build/mypkg/prefix_override:/home/tompsonpiano/ros2_ws/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/tompsonpiano/ros2_ws/build/mypkg/build install --record /home/tompsonpiano/ros2_ws/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
